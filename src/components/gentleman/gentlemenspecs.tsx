@@ -25,15 +25,15 @@ const AllGentlemenSpecs = gentlemenArray.map((item) => {
             <span className="gentleman__data-label">Twitter:</span>{' '}
             {item.twitter}
           </li>
+          <i className="icon gentleman__icon fas fa-check"></i>
+          <i className="icon gentleman__icon gentleman__icon--delete fas fa-times"></i>
         </ul>
       </div>
-      <i className="icon gentleman__icon fas fa-check"></i>
-      <i className="icon gentleman__icon gentleman__icon--delete fas fa-times"></i>
     </li>
   );
 });
 
-export function Gentleman() {
+export function Gentlemen() {
   return (
     <main className="main">
       <ul className="gentlemen">{AllGentlemenSpecs}</ul>

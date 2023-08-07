@@ -9,7 +9,7 @@ export const gentlemenArray: gentlemenType[] = [
     twitter: '@osbourne',
     picture: 'bertin.jpg',
     alternativeText: 'Osbourne pointing at you',
-    selected: true,
+    selected: false,
   },
   {
     name: 'The Farytale',
@@ -29,6 +29,6 @@ export const gentlemenArray: gentlemenType[] = [
     twitter: '@julius_churchs',
     picture: 'julio.jpg',
     alternativeText: 'Churchs pointing at you',
-    selected: true,
+    selected: false,
   },
 ];

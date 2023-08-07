@@ -1,5 +1,5 @@
 import { Footer } from '../footer/footer';
-import { Gentleman } from '../gentleman/gentlemanspecs';
+import { Gentlemen } from '../gentleman/gentlemenspecs';
 import { Header } from '../header/header';
 import { Info } from '../info/info';
 
@@ -8,7 +8,7 @@ export function App() {
     <div>
       <Header></Header>
       <Info></Info>
-      <Gentleman></Gentleman>
+      <Gentlemen></Gentlemen>
       <Footer></Footer>
     </div>
   );
